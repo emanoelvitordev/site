@@ -1,0 +1,63 @@
+
+
+body {
+    background: rgb(0,212,255);
+    background: linear-gradient(180deg, rgba(0,212,255,1) 15%, rgba(2,83,142,1) 44%, rgba(3,3,71,1) 67%, rgba(1,1,27,1) 86%, rgba(0,0,0,1) 96%);
+    height: 130vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -200px;
+    margin-bottom: -200px;
+}
+
+.logo img {
+  border-radius: 100%;
+  border: solid 2px rgb(255, 255, 255);
+  width: 200px;
+  height: 200px;
+}
+
+.h1-int a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contato {
+    border: solid 2px white;
+    border-radius: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.h3-ctt a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 190px;
+    border-top: 1px solid white;
+}
